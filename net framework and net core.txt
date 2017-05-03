@@ -1,0 +1,28 @@
+.NET Core .NET Framework-un sadelesdirilmis versiyasi deyil, bir yan mehsuldur 
+
+.NET FRAMEWORK
+-Windows aplikasiyalari ucun platform
+- WPF,Windows Forms,WF,WCF -lara sahibdir
+-Mono adli resmi olmayan programin komeyi ile Mac OS X ve Linux platformalarinda qismen isleyirdi 
+-Common Language Runtime(CLR) ile isleyir
+-OPensource deyil
+-Yalniz Windows platformasinda isleyir
+-web.config uzantili fayli istifade edir
+
+.NET CORE
+-Cloud platformuna daha uygun
+-Scale (olculendirilen) oluna bilen 
+-Cross-platform ve open source framework. Ferqli platformalarda islaya bilen (Windows, Mac, ve Linux)
+-Opensource
+-Mikroservisler (sadece bir is goren bir funsionalligi inkisaf etdiren cox kicik kod parcasidir)
+-Mac, Linux ve ya Windows ucun emr setri (Command line) terzinde development 
+-Tedbiqine gore .NET versiyalari ile yan yana bir isledilir
+-Tek bir kod "alt-yapisina" sahib
+-Islemesi ucun CoreCLR adlanan runtime modeli vardir
+-Helelik Web aplikasiyalar ve konsol programlari yazmaq olur. Yeni Forms, Windows Service, WPF ve s. kimi programlai desteklemir(helelik)
+-Bezi kitabxanalari ozunde saxlamir. Amma NuGet ustunden bu kitabxanalari elde etmek olar
+-JSON uzantili fayli istifade edir
+-Global.asax fayllari yoxdur. onun yerine oxsar qurulusa malik Startup fayli vardir
+-statik fayl, directory browsing, debug modlarda isleye bilir
+-Helelik sadece C# ile yazila bilir. Yeni VB.NET ve basqa .NET dillerinden istifade ede bilmir
+
